@@ -335,4 +335,51 @@ img {
     }
 }
 
+/* to fit small screen */
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px 5%;
+    }
 
+    .navbar a {
+        margin-left: 10px;
+    }
+
+    .home {
+        padding: 0 5%;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .btn-box {
+        width: 100%;
+    }
+
+    .btn-box a {
+        width: 48%;
+        font-size: 16px;
+    }
+
+    .home-sci {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    img {
+        display: none;
+    }
+
+    .home-imgHover {
+        display: none;
+    }
+}
